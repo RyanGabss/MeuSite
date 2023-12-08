@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script defer src="projeto.js "></script>
+</head>
+<body>
+    <div class="cabecalho">
+        <a href="#" class="logo">TF</a>
+
+        <nav class="navbar">
+            <a href="../Navegar/principal.html">Principal</a>
+            <a href="../sobre/sobre.html">Sobre</a>
+            <a href="../projetos/projetos.html">Projetos</a>
+            <a href="../Contato/contado.html">Contato</a>
+        </nav>
+    </div>
+
+    <div class="all-tasks">
+      <h2 class="task-list-title">Meus Projetos</h2>
+      <ul class="task-list">
+      </ul>
+
+      <form action="">
+        <input 
+          type="text"
+          class="new list"
+          placeholder="Novo Projeto"
+          aria-label="Novo Projeto"
+        />
+        <button class="btn create-project" aria-label="create new list">+</button>
+      </form>
+    </div>
+
+    <div class="todo-list">
+      <div class="todo-header">
+        <h2 class="list-title"></h2>
+        <button class="btn delete-project" aria-label="delete project">Deletar Projeto</button>
+        <p class="task-count">
+      </p>
+      </div>
+
+      <div class="todo-body">
+        <div class="tasks">
+          
+            <input type="checkbox" id="task-1"/>  
+          
+        </div>
+
+        <div class="new-task-creator">
+            <form action="">
+                <input 
+                  type="text"
+                  class="new task"
+                  placeholder="Nova tarefa"
+                  aria-label="Nova tarefa"
+                />
+                <button class="btn create-task" aria-label="create new task">+</button>
+              </form>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+</body>
+</html>
